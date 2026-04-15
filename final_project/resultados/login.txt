@@ -1,0 +1,2 @@
+[sargonass@sargonass-modern14b11sb ~]$ curl -X POST http://localhost:5000/customer/login -H "Content-Type: application/json" -d '{"username":"testuser","password":"testpass"}'
+{"message":"User successfully logged in","accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3R1c2VyIiwiaWF0IjoxNzc2MjMzMTEzLCJleHAiOjE3NzYyMzY3MTN9.9ee4T46x7docr27EAL3ViOvblbXszDONBBeKMRlDEdg"}
